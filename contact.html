@@ -20,15 +20,6 @@
     <script src="http://code.highcharts.com/highcharts.js"></script>
     <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
     <script type="text/javascript">
     	$(function() {
     		$('#container-graph').highcharts({
@@ -85,24 +76,31 @@
     			});
     	});
     </script>
+
+
 	
 </head>
 
 <body>
 
-<nav>
-    <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo">Jane Doe</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="index.html">About</a></li>
-            <li class="active"><a href="projects.html">Projects</a> </li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-
-<div class="container">
+<div id="container">
 	
+	<div id="top_row">
+	
+	<header>
+		<h1>Austin Leung</h1>
+		<h3>Carngeie Mellon University, Information Systems Program</h3>
+	</header>
+	
+	<nav> 
+	    <a href="index.html">About</a> 
+	    <a href="projects.html">Projects</a> 
+	    <a class="selected" href="contact.html">Contact</a>
+	</nav>
+
+	</div>
+
+	<div id="content">
 
 	<h3>Contact</h3>
 	  <p>Please use the below map to find me.</p>
@@ -161,26 +159,28 @@
 	  	
 	</div> <!-- Close content -->
 	
-<footer class="page-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col l12 s12">
-                <a href="austinle@andrew.cmu.edu"><img src="images/email.png"></a>
-                <a href="https://www.linkedin.com/in/austin-leung-25ab46179/" target="_blank"><img src="images/linkedin.png"></a>
-                <a href="https://www.facebook.com/kumquat.pi" target="_blank"><img src="images/facebook.png"></a>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            &copy; 5032 Forbes Avenue<br/>
-        SMC 1592<br/>
-        Pittsburgh, PA 15289<br/>
-        917-943-1081 (c)<br/><br/>
-        </div>
-    </div>
-</footer>
+	<div id="sidebar">
+		<h3>Contact</h3>
+		<strong>Austin Leung</strong><br/>
+		<a href="http://www.cmu.edu" target="_blank">Carnegie Mellon University</a><br/>
+		5032 Forbes Avenue<br/>
+		SMC 1592<br/>
+		Pittsburgh, PA 15289<br/>
+		917-943-1081 (c)<br/><br/>
+		<a href="mailto:austinle@andrew.cmu.edu"><img src="images/email.png"></a>
+		<a href="https://www.linkedin.com/in/austin-leung-25ab46179/" target="_blank"><img src="images/linkedin.png"></a>
+		<a href="https://www.facebook.com/kumquat.pi" target="_blank"><img src="images/facebook.png"></a>
+	</div> <!--Close sidebar  -->
 
+	<footer>
+		&copy; Austin Leung<br/>
+		<a href="mailto:austinle@andrew.cmu.edu">Email Me</a>
+		<!-- Anchor tags can take you to pages outside the site, within the site or within the page. -->
+	    <a href="http://cmu.edu" target="_blank">Carnegie Mellon University</a>
+	    <!-- This anchor takes us to another site (href starts with "http://...") so this is an absolute link. -->
+	</footer>
+
+</div> <!-- Close container -->	
 </body>
 
 </html>

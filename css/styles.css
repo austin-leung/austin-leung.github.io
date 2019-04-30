@@ -42,6 +42,98 @@ http://www.w3schools.com/css/css_font.asp
 	/* border: 1px solid gray; */
 }
 
+/* The top row - spans all columns for header and nav */
+#top_row {
+	border-bottom: 1px dotted #ccc;
+	padding: .5em .5em 3em .5em; 
+	
+	/* http://www.digizol.com/2006/12/margin-vs-padding-css-properties.html */ 
+	/* top, right, bottom, left */
+}
+
+#top_row header {
+	margin-bottom: -2.5em;
+}
+
+#top_row h1 {
+	color: #0F4970; /* Blue color for header */
+	font-size: 3.75em; /* http://pxtoem.com/ */
+	letter-spacing: -2px; /* The letter-spacing property increases or decreases the space between characters in a text. */
+}
+
+#top_row h3 {
+	font-size: 1.125em;
+	font-weight: 200; /* The font-weight property sets how thick or thin characters in text should be displayed. */
+}
+
+#top_row nav {
+	float: right; /* http://www.w3schools.com/css/css_float.asp */
+}
+
+#top_row nav a {
+	text-decoration: none;
+	font-size: 1.125em;
+	font-weight: 400;
+	padding: 15px;
+	color: #000000;
+}
+
+#top_row nav a.selected {
+	background: #f6f6f6;
+	color: #bbbbbb;	
+}
+
+	/* http://www.w3schools.com/cssref/pr_class_display.asp */
+
+	/* Creating a Links display option and roll-over / Pseudo-Element */
+	/* CSS pseudo-elements are used to add special effects to some selectors. */
+	/* More at http://www.w3schools.com/css/css_pseudo_elements.asp */
+	
+	
+	/* Hover adds special style to an element when you mouse over it */
+	
+#top_row nav a.selected:hover {
+	background: #f6f6f6;
+	color: #bbbbbb;	
+}
+
+#top_row nav a:hover {	
+	background: #f6f6f6;
+	color: #0F4970;
+}
+
+#content {
+	float: left;
+	width: 70%;
+	margin: 0;
+	padding: 1em;
+	border-right: 1px dotted #ccc;
+}
+
+#content h3 {
+	font-family: Georgia, serif;
+	font-size: 1.5em;
+	margin: 30px 0 10px 0;
+	font-weight: normal;
+}
+
+
+
+#bio {
+	margin-left: 3em;
+	font-size: .875em;
+}
+
+#bio a {
+	text-decoration: none;
+	border-bottom: 1px dotted #000;
+	color: #000;
+	
+}
+
+#bio a:hover {	
+	color: #0F4970;
+}
 
 #tabs a {
 	color: #C52222;
@@ -58,7 +150,17 @@ http://www.w3schools.com/css/css_font.asp
 	text-align: center;
 }
 
+#sidebar {
+	float: left;
+	padding: 1em;
+	font-size: .875em;	
+	/* border-left: 1px solid gray; */
+}
 
+#sidebar h3 {
+	font-size: 1.125em;
+	border-bottom: 1px dotted #ccc;
+}
 
 footer {
 	clear: both; /* The clear property specifies which side(s) of an element other floating elements are not allowed. */
@@ -138,13 +240,4 @@ iframe {
 .responsive {
     max-width: 100%;
     height: auto;
-}
-
-.container {
-	width: 70% !important;
-}
-
-.brand-logo {
-	font-size: 40px !important;
-	margin-left: 10px;
 }

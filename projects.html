@@ -18,45 +18,42 @@
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"> </script>
     <script type="text/javascript" src="js/scripts.js" > </script>
     <script type="text/javascript" src="js/jquery-ui.js" > </script>
+    <script type="text/javascript" src="js/jquery.lightbox.min.js" > </script>
 
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script>
-        $(document).ready(function(){
-            $('.collapsible').collapsible();
-        }); 
-    </script>
-
-    <script>
-        $(document).ready(function(){
-            $('.tabs').tabs();
+    <script type="text/javaScript">
+        $(function() {
+            $('#gallery a').lightBox();
         });
     </script>
+
+    <script> 
+    	$(function() {
+    		$( "#accordion" ).accordion();
+    	});
+    </script>
+
+    <script>
+    	$(function() {
+    		$( "#tabs" ).tabs({
+    			event:"mouseover"
+    		});
+    	});
+    </script>
+
+    <style>
+    	p {
+    		color: #4ACFCF;
+    		font-family: "Arial", Helvetica, Arial, Sans-serif;
+    		font-size: 1.5em;	
+    	}
+    </style>
 	
 </head>
 
 <body>
 
-    <nav>
-        <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo">Jane Doe</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="index.html">About</a></li>
-                <li class="active"><a href="projects.html">Projects</a> </li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-<div class="container">
-	<!--
+<div id="container">
+	
 	<div id="top_row">
 	
 	<header> 
@@ -69,116 +66,9 @@
 	    <a class="selected" href="projects.html">Projects</a> 
 	    <a href="contact.html">Contact</a>
 	</nav>
-    </div>
--->
 
-    <ul class="collapsible">
-        <li>
-            <div class="collapsible-header">Tonk</div>
-            <div class="collapsible-body"><span>A textbased version of the classic card game Tonk with Java.</span></div>
-        </li>
-        <li>
-            <div class="collapsible-header">Gyul! Hap!</div>
-            <div class="collapsible-body"><span>A rapidfire game matching shapes and colors with Processing and Java.</span></div>
-        </li>
-        <li>
-            <div class="collapsible-header">112 Mahjong</div>
-            <div class="collapsible-body"><span>A fully functional mahjong game in Tkinter with AI and assist mode in Python.</span></div>
-        </li>
-        <li>
-            <div class="collapsible-header">Case Analysis Project</div>
-            <div class="collapsible-body"><span>Analysis of business strategies of Alibaba and made suggestions for improvement.</span></div>
-        </li>
-        <li>
-            <div class="collapsible-header">Web Development Project</div>
-            <div class="collapsible-body"><span>A full website applied to a real world business.</span></div>
-        </li>
-        <li>
-            <div class="collapsible-header">Database Project</div>
-            <div class="collapsible-body"><span>A database made for a company.</span></div>
-        </li>
-    </ul>
-    <br><br>
-
-    <div class="row">
-        <div class="col s12">
-            <ul class="tabs">
-                <li class="tab col s3"><a class="active" href="#tab1">Tonk</a></li>
-                <li class="tab col s3"><a href="#tab2">Gyul! Hap!</a></li>
-                <li class="tab col s3"><a href="#tab3">112 Mahjong</a></li>
-                <li class="tab col s3"><a href="#tab4">Case Analysis Project</a></li>
-                <li class="tab col s3"><a href="#tab5">Web Dev Project</a></li>
-                <li class="tab col s3"><a href="#tab6">Database Project</a></li>
-            </ul>
-        </div>
-        <div id="tab1" class="col s12">
-            <p>tab tonk filler text tab tonk filler text tab tonk filler text tab tonk filler text tab tonk filler text tab tonk filler text tab tonk filler text tab tonk filler text tab tonk filler text tab tonk filler text</p>
-        </div>
-        <div id="tab2" class="col s12">
-            <p>tab gyulhap filler tab gyulhap filler tab gyulhap filler tab gyulhap filler tab gyulhap filler tab gyulhap filler tab gyulhap filler tab gyulhap filler tab gyulhap filler tab gyulhap filler tab gyulhap filler</p>
-        </div>
-        <div id="tab3" class="col s12">
-            <p>tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler tab mahjong filler</p>
-        </div>
-        <div id="tab4" class="col s12">
-            <p>tab caseanalziz filler tab caseanalziz filler tab caseanalziz filler tab caseanalziz filler tab caseanalziz filler tab caseanalziz filler tab caseanalziz filler tab caseanalziz filler</p>
-        </div>
-        <div id="tab5" class="col s12">
-            <p>tab wdevvv filler tab wdevvv filler tab wdevvv filler tab wdevvv filler tab wdevvv filler tab wdevvv filler tab wdevvv filler tab wdevvv filler tab wdevvv filler tab wdevvv filler</p>
-        </div>
-        <div id="tab6" class="col s12">
-            <p>tab dbase filler tab dbase filler tab dbase filler tab dbase filler tab dbase filler tab dbase filler tab dbase filler tab dbase filler tab dbase filler tab dbase filler</p>
-        </div>
-    </div>
-
-    <br><br>
-
-    <table style="width:100%" border="4">
-                    <tr>
-                        <th colspan = "3">Course Projects</th>
-                        <tr>
-                            <th>Title</th>
-                            <th>Course/Hackathon</th> 
-                            <th>Semester</th>
-                        </tr>
-                        <tr onmouseover="showDescription('A textbased version of the classic card game Tonk with Java.');" onmouseout="hideDescription();">
-                            <td>Tonk</td>
-                            <td>Stuy Hacks</td> 
-                            <td>Fall 2017</td>
-                        </tr>
-                        <tr onmouseover="showDescription('A rapidfire game matching shapes and colors with Processing and Java.');" onmouseout="hideDescription();">
-                            <td>Gyul! Hap!</td>
-                            <td>Stuy Hacks</td> 
-                            <td>Spring 2018</td>
-                        </tr>
-                        <tr onmouseover="showDescription('A fully functional mahjong game in Tkinter with AI and assist mode in Python.');" onmouseout="hideDescription();">
-                            <td>112 Mahjong</td>
-                            <td>15-112</td> 
-                            <td>Fall 2019</td>
-                        </tr>
-                        <tr onmouseover="showDescription('Analysis of business strategies of Alibaba and made suggestions for improvement.');" onmouseout="hideDescription();">
-                            <td>Case Analysis Project</td>
-                            <td>67-250</td> 
-                            <td>Spring 2019</td>
-                        </tr>
-                        <tr onmouseover="showDescription('A full website applied to a real world business.');" onmouseout="hideDescription();">
-                            <td>Web Development Project</td>
-                            <td>67-250</td> 
-                            <td>Spring 2019</td>
-                        </tr>
-                        <tr onmouseover="showDescription('A database made for a company.');" onmouseout="hideDescription();">
-                            <td>Database Project</td>
-                            <td>67-250</td> 
-                            <td>Spring 2019</td>
-                        </tr>
-                    </tr>
-                </table>
-                <br/>
-                <div id="description"> </div>
-
-
+</div>
 	
-    <!--
 	<div id="content">
 		<h3>Projects</h3>
 
@@ -310,32 +200,30 @@
                 <div id="description"> </div>
 	  
 		
-	</div> 
--->
-
-</div>
+	</div> <!-- Close content -->
 	
+	<div id="sidebar">
+		<h3>Contact</h3>
+		<strong>Austin Leung</strong><br/>
+		<a href="http://www.cmu.edu" target="_blank">Carnegie Mellon University</a><br/>
+		5032 Forbes Avenue<br/>
+		SMC 1592<br/>
+		Pittsburgh, PA 15289<br/>
+		917-943-1081 (c)<br/><br/>
+		<a href="mailto:austinle@andrew.cmu.edu"><img src="images/email.png"></a>
+		<a href="https://www.linkedin.com/in/austin-leung-25ab46179/" target="_blank"><img src="images/linkedin.png"></a>
+		<a href="https://www.facebook.com/kumquat.pi" target="_blank"><img src="images/facebook.png"></a>
+	</div> <!--Close sidebar  -->
 
-<footer class="page-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col l12 s12">
-                <a href="austinle@andrew.cmu.edu"><img src="images/email.png"></a>
-                <a href="https://www.linkedin.com/in/austin-leung-25ab46179/" target="_blank"><img src="images/linkedin.png"></a>
-                <a href="https://www.facebook.com/kumquat.pi" target="_blank"><img src="images/facebook.png"></a>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            &copy; 5032 Forbes Avenue<br/>
-        SMC 1592<br/>
-        Pittsburgh, PA 15289<br/>
-        917-943-1081 (c)<br/><br/>
-        </div>
-    </div>
-</footer>
+	<footer>
+		&copy; Austin Leung<br/>
+		<a href="mailto:austinle@andrew.cmu.edu">Email Me</a>
+		<!-- Anchor tags can take you to pages outside the site, within the site or within the page. -->
+	    <a href="http://cmu.edu" target="_blank">Carnegie Mellon University</a>
+	    <!-- This anchor takes us to another site (href starts with "http://...") so this is an absolute link. -->
+	</footer>
 
+</div>	
 </body>
 
 </html>
