@@ -1,3 +1,3 @@
-A Github Pages repository containing my personal website. 
+A Github Pages repository containing my personal website. A link to the website can be found here: 
 
-# A link to the website can be found here: https://austin-leung.github.io/
+## https://austin-leung.github.io/
