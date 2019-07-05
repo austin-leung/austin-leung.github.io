@@ -129,7 +129,6 @@ background-size: cover;}
   overflow: hidden;
   top: 0;
   left: 0;
-  background-color: rgba(75,75,75,0.7);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -149,7 +148,7 @@ background-size: cover;}
   position: relative;
   font-size: 17px;
   padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   -webkit-transform: translateY(45px);
   -ms-transform: translateY(45px);
   transform: translateY(45px);
@@ -158,6 +157,7 @@ background-size: cover;}
 }
 
 .hovereffect:hover h2 {
+	background: rgba(0, 0, 0, 0.4);
   -webkit-transform: translateY(5px);
   -ms-transform: translateY(5px);
   transform: translateY(5px);
