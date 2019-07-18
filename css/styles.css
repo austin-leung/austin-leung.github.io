@@ -230,11 +230,19 @@ background-size: cover;}
 }
 
 .hovereffect a.mahjong {
-  padding-bottom: 167px;
+  padding-bottom: 166px;
 }
 
 .hovereffect a.fts {
   padding-bottom: 146px;
+}
+
+.hovereffect a.pkmn {
+  padding-bottom: 166px;
+}
+
+.left {
+	float: left;
 }
 
 /* End Projects*/
