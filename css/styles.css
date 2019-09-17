@@ -230,11 +230,15 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 }
 
 .hovereffect a.fts {
-	padding-bottom: 146px;
+	padding-bottom: 145px;
 }
 
 .hovereffect a.pkmn {
-	padding-bottom: 166px;
+	padding-bottom: 145px;
+}
+
+.hovereffect a.stork {
+	padding-bottom: 103px;
 }
 
 .left {
