@@ -173,10 +173,11 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 	transform: scale(0);
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
-	margin: -38px 0 0 0;
-	padding: 62px 100px;
-	padding-right: 0px;
-	padding-left: 0px;
+	/* margin: -38px 0 0 0; */
+	/* padding: 62px 100px; */
+	/* padding-right: 0px;
+	padding-left: 0px; */
+	height: 80%;
 	font: 100 16px/21px 'Open sans',Helvetica,Arial,sans-serif;
 }
 
@@ -189,6 +190,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 }
 
 .hovereffect a.info:hover {
+	margin-top: 5%;
 	box-shadow: 0 0 5px #fff;
 }
 
@@ -208,7 +210,7 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 	background:rgba(15,18,23,0.4);
 	color:#fff;padding:3px 7px;
 	border-radius:5px;
-	font-size:13px;
+	font-size:11px;
 	margin-bottom:10px;
 }
 .skills .skill.language{background:rgba(15,18,23,0.9)}
@@ -220,29 +222,41 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 	margin-left: 14px;
 	margin-right: 14px;
 }
+/* 
+.hovereffect a.textlive {
+	padding-bottom: 88px;
+}
+
+.hovereffect a.creamery {
+	padding-bottom: 89px;
+}
 
 .hovereffect a.reddit {
-	padding-bottom: 40px;
+	padding-bottom: 88px;
 }
 
 .hovereffect a.mahjong {
-	padding-bottom: 166px;
+	padding-bottom: 172px;
 }
 
 .hovereffect a.fts {
-	padding-bottom: 145px;
+	padding-bottom: 150px;
 }
 
 .hovereffect a.pkmn {
-	padding-bottom: 145px;
+	padding-bottom: 151px;
 }
 
 .hovereffect a.stork {
-	padding-bottom: 103px;
-}
+	padding-bottom: 109px;
+} */
 
 .left {
 	float: left;
+}
+
+.company {
+	padding: 30px;
 }
 
 /* End Projects*/
