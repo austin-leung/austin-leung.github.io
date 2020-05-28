@@ -1,8 +1,8 @@
 /* General */
 
-.section{ padding: 50px 0 50px; }
+.section{ padding: 35px 0 35px; }
 
-.section .heading{ margin-bottom: 60px; }
+.section .heading{ margin-bottom: 30px; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
 margin-bottom: 20px; display: block; background: #aaf0d1; }
@@ -104,6 +104,18 @@ a, button{ display: inline-block; text-decoration: none; color: inherit; line-he
 
 
 			.intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
+	
+	.intro-icon {
+		display: inline-block;
+		*display: inline; /* for older IE */
+		*zoom: 1;
+		/* height: 50%; */
+		width: 12%;
+	}
+
+	.intro {
+		/* line-height: 0px; */
+	}
 
 /* End Intro */
 
