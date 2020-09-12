@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
+	<meta name="description" content="Austin Leung's Personal Website">
 
 
 	<!-- Font -->
@@ -15,15 +16,14 @@
 
 	<link href="common-css/bootstrap.css" rel="stylesheet">
 
+	<link href="common-css/ionicons.css" rel="preload" as="style">
 	<link href="common-css/ionicons.css" rel="stylesheet">
 
 	<link href="common-css/fluidbox.min.css" rel="stylesheet">
 
 	<link href="css/responsiveStyles.css" rel="stylesheet">
 
-	<link rel = "stylesheet"
-	type = "text/css"
-	href = "css/styles.css" />
+	<link rel = "stylesheet" type = "text/css" href = "css/styles.css" />
 
 </head>
 <body>
@@ -34,7 +34,12 @@
 				<div class="col-md-1 col-lg-2"></div>
 				<div class="col-md-10 col-lg-8">
 					<div class="intro">
-						<div class="profile-img"><img src="imgs/profile.png" alt="Profile Pic"></div>
+						<div class="profile-img">
+							<picture>
+								<source type="image/webp" srcset="imgs/profile.webp">
+								<img src="imgs/profile.png" alt="Profile Pic">
+							</picture>
+						</div>
 						<div id="banner-text">
 							<h2 class="vcard"><span class="fn">Austin Leung</span></h2><br>
 							<p>Hi, I'm Austin, a junior at Carnegie Mellon University studying Information Systems with minors in Computer Science and Software Engineering. <br><br>This past summer I worked on developing a platform to democratize tech skills with Pluralsight!
@@ -70,7 +75,7 @@
 
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="hovereffect">
-					<img class="img-responsive" src="imgs/textlive.png" alt="textlive">
+					<img class="img-responsive" src="imgs/textlive.png" alt="TextLive">
 						<div class="overlay">
 							<h2>TextLive</h2>
 							<a class="info textlive" href="https://play.google.com/store/apps/details?id=com.textlive">
@@ -91,7 +96,7 @@
 
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="hovereffect">
-					<img class="img-responsive" src="imgs/creamery.png" alt="textlive">
+					<img class="img-responsive" src="imgs/creamery.png" alt="A&M Creamery">
 						<div class="overlay">
 							<h2>A&M Creamery</h2>
 							<a class="info creamery" href="https://a-and-m-creamery.herokuapp.com/">
@@ -139,7 +144,10 @@
 
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="hovereffect">
-							<img class="img-responsive" src="imgs/mahjong.png" alt="mahjong">
+							<picture>
+								<source type="image/webp" srcset="imgs/mahjong.webp">
+								<img class="img-responsive" src="imgs/mahjong.png" alt="AI Mahjong">
+							</picture>
 							<div class="overlay">
 								<h2>AI Mahjong</h2>
 								<a class="info mahjong" href="https://github.com/austin-leung/112-Mahjong">
@@ -157,7 +165,10 @@
 
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="hovereffect">
-							<img class="img-responsive" src="imgs/stork.png" alt="stork">
+							<picture>
+								<source type="image/webp" srcset="imgs/stork.webp">
+								<img class="img-responsive" src="imgs/stork.png" alt="Stork">
+							</picture>
 							<div class="overlay">
 								<h2>Stork</h2>
 								<a class="info stork" href="https://github.com/DLo930/Stork">
@@ -179,7 +190,7 @@
 
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="hovereffect">
-							<img class="img-responsive" src="imgs/abomasnow.png" alt="pokemon">
+							<img class="img-responsive" src="imgs/abomasnow.png" alt="Pokemon">
 							<div class="overlay">
 								<h2>Who's That Pokémon?</h2>
 								<a class="info pkmn" href="https://github.com/austin-leung/whos-that-pokemon/blob/master/pokemonCNN.ipynb">
@@ -203,7 +214,7 @@
 
 					<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 						<div class="hovereffect">
-							<img class="img-responsive" src="imgs/findthesets.png" alt="">
+							<img class="img-responsive" src="imgs/findthesets.png" alt="Find the Sets">
 							<div class="overlay">
 								<h2>Find the Sets</h2>
 								<a class="info fts" href="https://github.com/austin-leung/GyulHap">
@@ -242,7 +253,7 @@
 
 					<div class="experience margin-b-50 row">
 						<div class="col-sm-2 company">
-							<img src="imgs/ps.png"/>
+							<img src="imgs/ps.png" alt="Pluralsight"/>
 						</div>
 						<div class="col-sm-10">
 							<h4><b>Software Engineering Intern</b></h4>
@@ -275,7 +286,7 @@
 
 					<div class="experience margin-b-50 row">
 						<div class="col-sm-2 company">
-							<img src="imgs/scs.gif"/>
+							<img src="imgs/scs.gif" alt="CMU SCS"/>
 						</div>
 						<div class="col-sm-10">
 							<h4><b>Teaching Assistant (Principles of Imperative Computation)</b></h4>
@@ -297,7 +308,10 @@
 
 					<div class="experience margin-b-50 row">
 						<div class="col-sm-2 company">
-							<img src="imgs/lti.png"/>
+							<picture>
+								<source type="image/webp" srcset="imgs/lti.webp">
+								<img src="imgs/lti.png" alt="CMU"/>
+							</picture>
 						</div>
 						<div class="col-sm-10">
 							<h4><b>Data & Machine Learning Research Assistant</b></h4>
@@ -320,7 +334,7 @@
 
 					<div class="experience margin-b-50 row">
 						<div class="col-sm-2 company">
-							<img src="imgs/adagio2.png" alt="Adagio"/>
+							<img src="imgs/adagio.png" alt="Adagio"/>
 						</div> 
 						<div class="col-sm-10">
 							<h4><b>Technology Intern</b></h4>
@@ -355,7 +369,7 @@
 	</footer>
 
 
-	<!-- SCIPTS -->
+	<!-- SCRIPTS -->
 
 	<script src="common-js/jquery-3.2.1.min.js"></script>
 
