@@ -139,7 +139,7 @@ height: 150px; z-index: -1; background: #fff; }
 	position: relative;
 	text-align: center;
 	cursor: default;
-	border: 8px groove #aaf0d1;
+	border: 5px double #aaf0d1;
 }
 
 .hovereffect .overlay {
