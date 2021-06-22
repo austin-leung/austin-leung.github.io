@@ -285,9 +285,10 @@ height: 150px; z-index: -1; background: #fff; }
 	background: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	color: #fff;
+	padding-bottom: 25px;
 }
 
-.row {
+.proj-row {
 	margin-bottom: 20px;
 }
 
@@ -374,6 +375,10 @@ width: 10px; display: block; border-radius: 10px; border: 2px solid #777; }
 
 h4 {
 	color: #438644;
+}
+
+.exp-row {
+	margin-bottom: 20px;
 }
 
 /* End Experience */
