@@ -80,40 +80,41 @@ b.max-bold{ font-weight: 700; }
 
 .btn-border-purple:hover{ background: #438644; color: #fff; }
 
+.intro-section {
+	padding: 150px;
+}
+
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0;
 right: 0; background: rgba(0,0,0, .2); background-image:url("../imgs/cmu.jpg");
 background-size: cover;}
 
-.intro-section:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-height: 150px; z-index: -1; background: #fff; }
-
-.intro{ padding: 0 20px; margin-top: 100px; text-align: center; background: #fff; }
+.intro{ padding: 25px; text-align: center; background: #fff; }
 
 .intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto;
-	overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
+overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
 
-	.intro .information > li{ display: block; margin: 5px 0; }
+.intro .information > li{ display: block; margin: 5px 0; }
 
-	.intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px;
-		overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #438644; color: #fff; }
+.intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px;
+overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #438644; color: #fff; }
 
-		.intro .git a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-		top: 0; z-index: -1; border-radius: 20px; background: #000000;
-		-webkit-transition: all .2s ease; transition: all .2s ease;
-		-webkit-transform: scale(0); transform: scale(0); }
+.intro .git a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+top: 0; z-index: -1; border-radius: 20px; background: #000000;
+-webkit-transition: all .2s ease; transition: all .2s ease;
+-webkit-transform: scale(0); transform: scale(0); }
 
-		.intro .linkedin a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-		top: 0; z-index: -1; border-radius: 20px; background: #0073b1;
-		-webkit-transition: all .2s ease; transition: all .2s ease;
-		-webkit-transform: scale(0); transform: scale(0); }
+.intro .linkedin a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+top: 0; z-index: -1; border-radius: 20px; background: #0073b1;
+-webkit-transition: all .2s ease; transition: all .2s ease;
+-webkit-transform: scale(0); transform: scale(0); }
 
-		.intro .mail a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-		top: 0; z-index: -1; border-radius: 20px; background: #D44638;
-		-webkit-transition: all .2s ease; transition: all .2s ease;
-		-webkit-transform: scale(0); transform: scale(0); }
+.intro .mail a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+top: 0; z-index: -1; border-radius: 20px; background: #D44638;
+-webkit-transition: all .2s ease; transition: all .2s ease;
+-webkit-transform: scale(0); transform: scale(0); }
 
 
-		.intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
+.intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
 
 .intro-icon {
 	display: inline-block;
@@ -126,6 +127,16 @@ height: 150px; z-index: -1; background: #fff; }
 /* End Intro */
 
 /* Projects */
+.proj {
+	background: #6441A5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: #fff;
+	border-top: 4px solid #aaf0d1;
+	border-bottom: 4px solid #aaf0d1;
+}
+
 .proj .heading {
 	padding: 20px;
 	margin: 0 85px 30px 85px;
@@ -283,13 +294,6 @@ height: 150px; z-index: -1; background: #fff; }
 	padding: 30px;
 }
 
-.proj {
-	background: #6441A5;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
-	background: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	color: #fff;
-}
 
 .proj-row {
 	margin-top: 15px;
@@ -358,6 +362,18 @@ hr:after {
 
 /* Experience */
 
+.exp {
+	color: #777;
+	background-color: #FFFFFF;
+	border-top: 4px solid #aaf0d1;
+	border-bottom: 4px solid #aaf0d1;
+}
+
+.exp img {
+	margin-top: -20px;
+	width: 82px;
+}
+
 .exp-row {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -368,15 +384,6 @@ hr:after {
 .exp-row .list > li:before{ content: ''; position: absolute; top: 7px; left: 0; height: 10px;
 width: 10px; display: block; border-radius: 10px; border: 2px solid #777; }
 
-.exp {
-	color: #777;
-	background-color: #FFFFFF;
-}
-
-.exp img {
-	margin-top: -20px;
-	width: 82px;
-}
 
 h4 {
 	color: #438644;
