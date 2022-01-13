@@ -76,9 +76,9 @@ b.max-bold{ font-weight: 700; }
 
 /* Intro */
 
-.btn-border-purple{ border: 1px solid #aaf0d1; color: #222; }
+.btn-border-mint{ border: 1px solid #aaf0d1; color: #222; }
 
-.btn-border-purple:hover{ background: #438644; color: #fff; }
+.btn-border-mint:hover{ background: #438644; color: #fff; }
 
 .intro-section {
 	padding: 10%;
