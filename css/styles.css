@@ -85,7 +85,7 @@ b.max-bold{ font-weight: 700; }
 right: 0; background: rgba(0,0,0, .2); background-image:url("../imgs/cmu.jpg");
 background-size: cover; background-position: center center;}
 
-.intro{ padding: 25px; text-align: center; background: #fff;}
+.intro{ padding: 35px; text-align: center; background: #fff;}
 
 .intro .profile-img{ height: 200px; width: 200px; border-radius: 100px; margin: 0 auto;
 overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
