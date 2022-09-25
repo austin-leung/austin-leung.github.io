@@ -15,12 +15,9 @@
 }
 
 .section-content .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-margin-bottom: 20px; display: block; background: #aaf0d1; }
+margin-bottom: 20px; display: block; }
 
 .margin-t-10{ margin-top: 10px; }
-
-
-.font-yellow{ color: #81b398; }
 
 .font-semi-white{ color: #ddd; }
 
@@ -31,7 +28,7 @@ html{ font-size: 100%; height: 100%; overflow-x: hidden; margin: 0px;  padding: 
 
 body{ font-size: 16px; font-family: 'Poppins', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
 -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word;
-color: #333; background: #438644; }
+color: #333; }
 
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, input, button{ margin: 0; padding: 0; }
 
@@ -76,9 +73,9 @@ b.max-bold{ font-weight: 700; }
 
 /* Intro */
 
-.btn-border-mint{ border: 1px solid #aaf0d1; color: #222; }
+.btn-resume{ border: 1px solid; color: #222; }
 
-.btn-border-mint:hover{ background: #438644; color: #fff; }
+.btn-resume:hover{ color: #fff; }
 
 .intro-section {
 	padding: 10%;
@@ -96,7 +93,7 @@ overflow: hidden; position: relative; top: -100px; margin-bottom: -70px;  }
 .intro .information > li{ display: block; margin: 5px 0; }
 
 .intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px;
-overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; background: #438644; color: #fff; }
+overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; color: #fff; }
 
 .intro .git a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
 top: 0; z-index: -1; border-radius: 20px; background: #000000;
@@ -128,13 +125,11 @@ top: 0; z-index: -1; border-radius: 20px; background: #D44638;
 
 /* Projects */
 .proj {
-	background: #6441A5;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
 	background: white; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	color: #fff;
-	border-top: 4px solid #aaf0d1;
-	border-bottom: 4px solid #aaf0d1;
+	border-top: 4px solid;
+	border-bottom: 4px solid;
 }
 
 .proj .heading {
@@ -150,7 +145,7 @@ top: 0; z-index: -1; border-radius: 20px; background: #D44638;
 	position: relative;
 	text-align: center;
 	cursor: default;
-	border: 5px double #aaf0d1;
+	border: 5px double;
 }
 
 .hovereffect .overlay {
@@ -230,8 +225,8 @@ top: 0; z-index: -1; border-radius: 20px; background: #D44638;
 }
 
 .hovereffect:hover img{
-	filter: blur(7px);
-	-webkit-filter: blur(7px);
+	filter: blur(40px);
+	-webkit-filter: blur(40px);
 }
 
 #skills{position:relative;box-shadow: 0 8px 14px 0px rgba(0,0,1,0.8);}
@@ -322,8 +317,8 @@ top: 0; z-index: -1; border-radius: 20px; background: #D44638;
 	height: 15px;
 	position: relative;
 	border-radius: 5px;
-	border: 1px solid #abedc1;
-	background-color: #6fb085;
+	border: 1px solid #92a9b3;
+	background-color: #648290;
 	left: 20%;
 	bottom: -10px;
 }
@@ -334,14 +329,14 @@ top: 0; z-index: -1; border-radius: 20px; background: #D44638;
 	height: 15px;
 	position: relative;
 	border-radius: 5px;
-	border: 1px solid #abedc1;
-	background-color: #6fb085;
+	border: 1px solid #92a9b3;
+	background-color: #648290;
 	right: 20%;
 	bottom: -10px;
 }
 
 hr {
-	border: 0 solid #abedc1;
+	border: 0 solid #92a9b3;
 	border-top-width: 1px;
 	height: 0;
 	clear: both;
@@ -361,7 +356,7 @@ hr:after {
 	margin:-25px 0 0 -25px;
 	border-radius:50px;
 	overflow:hidden;
-	box-shadow: 0 0 0 1px #6fb085, 0 0 5px;
+	box-shadow: 0 0 0 1px #648290, 0 0 5px;
 }
 
 /* End divider */
@@ -372,8 +367,8 @@ hr:after {
 .exp {
 	color: #777;
 	background-color: #FFFFFF;
-	border-top: 4px solid #aaf0d1;
-	border-bottom: 4px solid #aaf0d1;
+	border-top: 4px solid;
+	border-bottom: 4px solid;
 }
 
 .exp img {
@@ -391,20 +386,37 @@ hr:after {
 .exp-row .list > li:before{ content: ''; position: absolute; top: 7px; left: 0; height: 10px;
 width: 10px; display: block; border-radius: 10px; border: 2px solid #777; }
 
-
-h4 {
-	color: #438644;
-}
-
 /* End Experience */
 
 /* Footer */
 .copyright{
 	text-align: center; padding: 30px 0;
-	background: #6441A5;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
-	background: #438644; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
-
 }
 /* End Footer */
+
+/* Colors */
+/* https://htmlcolors.com/material-design-colors Blue Grey */
+
+.btn-resume:hover, .intro .social-icons > li > a, .copyright, body {
+	background: #455a64;
+}
+
+h4 {
+	color: #455a64;
+}
+
+.exp, .proj {
+	border-top-color: #cfd8dc;
+	border-bottom-color: #cfd8dc;
+}
+
+.section-content .heading:before {
+	background: #648290;
+}
+
+.btn-resume, .hovereffect {
+	border-color: #648290;
+}
+
+.font-company{ color: #607d8b; }
